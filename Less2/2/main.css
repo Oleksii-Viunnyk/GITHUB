@@ -1,0 +1,15 @@
+.holder ul + p {
+    font-size: 26px;
+}
+
+li [title] {
+    border: 1px solid #067b09;
+}
+
+.holder [href^='https://'] {
+    color: #f00;
+}
+
+.holder [href^='http://'] {
+   color: #ff8d00; 
+}

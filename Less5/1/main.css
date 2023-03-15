@@ -1,0 +1,23 @@
+.topmenu {
+    display: flex;
+    background-color: #f0c368;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f0c368;
+}
+
+.content {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #adf2a5;
+}

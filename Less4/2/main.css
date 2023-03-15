@@ -1,0 +1,39 @@
+.holder {
+    height: 2000px;
+    background-color: #0d5825;
+}
+
+.text {
+    position: relative;
+    top: 5%;
+    color: white;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.firstCard {
+    position: relative;
+    left: 25%;
+    transform: rotate(-25deg);
+    z-index: 1;
+}
+
+.secondCard {
+    position: relative;
+    transform: rotate(-5deg);
+    z-index: 2;
+}
+
+.thirdСard {
+    position: relative;
+    right: 25%;
+    transform: rotate(5deg);
+    z-index: 3;
+}

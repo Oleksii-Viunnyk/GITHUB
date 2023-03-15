@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+@keyframes moove {
+    0% {top: 0px; left: 0px; background-color: red;}
+    25% {top: 600px; left: 0px; background-color: blue;}
+    50% {top: 600px; left: 600px; background-color: green;}
+    75% {top: 0px; left: 600px; background-color: yellow;}
+    100% {top: 0px; left: 0px; background-color: red;}
+}
+
+.cube {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    animation: moove 5s infinite;
+}
